@@ -16,6 +16,7 @@ namespace Newbly
             var mongo = new Mongo(settings.MongoConnectionString);
             mongo.Users.Insert(new User() { Email = "andrew@paralect.com", Id = ObjectId.GenerateNewId() });
 
+            var user = new User();
         }
     }
 }

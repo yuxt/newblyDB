@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Newbly.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -52,6 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ContentBase.cs" />
+    <Compile Include="Entities\ImageContent.cs" />
+    <Compile Include="Entities\Timeline.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Mongo.cs" />
     <Compile Include="Settings.cs" />
