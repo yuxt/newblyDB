@@ -13,7 +13,7 @@ To connect using a driver via the standard URI (what's this?):
 
 What we have so far ():
 --------------------------
-
+``` txt
 ContentBase -- base, raw content item
 {
   ObjectId Id, -- objectId it's common mongodb type for ids, optimized for fast quering 
@@ -81,8 +81,10 @@ TimeLine -- object that will contains information for specific date and hour
    }   
 }
 
+```
 
 Basic application logic:
+========
 
 1. When Administrator add new content item for specific month (or range) -- we should insert this reference into all days (TimeLines)
 2. When user login we should insert user client device information into User metadata ClientInfos nested collection, but not each time when
@@ -90,7 +92,7 @@ he login (check if same IP/device exists)
 
 
 Some ideas
---------------------
+========
 1. Content item comments -- third party service or facebook comments.
 2. Predications -- machine learning (http://en.wikipedia.org/wiki/Machine_learning) or expert systems (http://en.wikipedia.org/wiki/Expert_system).
 Machine learning -- is really good thing, that can automatically help parents, based on answers of another parents.
