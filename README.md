@@ -11,7 +11,7 @@ mongo ds035907.mongolab.com:35907/newbly -u <user> -p <password>
 To connect using a driver via the standard URI (what's this?):
   mongodb://<user>:<password>@ds035907.mongolab.com:35907/newbly
 
-What we have so far ():
+What we have so far (initial database design):
 --------------------------
 ``` JSON
 ContentBase -- base, raw content item
