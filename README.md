@@ -13,7 +13,7 @@ To connect using a driver via the standard URI (what's this?):
 
 What we have so far ():
 --------------------------
-``` txt
+``` JSON
 ContentBase -- base, raw content item
 {
   ObjectId Id, -- objectId it's common mongodb type for ids, optimized for fast quering 
